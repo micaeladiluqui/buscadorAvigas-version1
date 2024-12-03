@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra horizontalmente todo el contenido */
+}
+
+.tab {
+    display: none
+}
+
+.tab.active {
+    display: block;
+}
+
+.tabs {
+    margin-bottom: 10px;
+
+}
+
+.tab-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.tab-button.active {
+    background-color: orange;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+
+h1 {
+    color: yellow; /* Cambia 'yellow' por el color que desees */
+}
+
+h2 {
+    font-size: 0.9rem;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto; /* Centra el botón y añade margen superior */
+    justify-content: center;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+/* Cambia el color del texto en los resultados */
+#resultado_busqueda_1 {
+    color: chartreuse; /* Cambia 'blue' por el color que desees */
+    text-align: center;
+}
+
+#resultado_busqueda_2 {
+    color: chartreuse; /* Cambia 'green' por el color que desees */
+    text-align: center;
+}
+
