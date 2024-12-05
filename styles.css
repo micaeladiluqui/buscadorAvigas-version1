@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    background-color: blue;
     display: flex;
     flex-direction: column; /* Coloca los elementos en una columna */
     align-items: center; /* Centra horizontalmente todo el contenido */
